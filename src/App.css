@@ -1,0 +1,58 @@
+
+body{
+    background-color: rgb(220, 13, 13);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background: linear-gradient(rgba(18, 11, 10, 0.3),#009619)
+    
+    }  
+    .mt-3, button{
+      
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+    }
+    button{
+        background-color:#ff9102;;
+    }
+ label button{
+    height: 25px;
+    padding-bottom: 10px;
+    border: none;
+      height: 36px;
+      width: 74px;
+      display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+ input{
+    margin-bottom: 20%;
+    padding: 10%;
+ }
+ .godman input{
+    margin-bottom: 30%;
+    padding: 25%;
+    
+ }
+ .col-sm input{
+    margin-bottom: 12%;
+    padding: 5%;
+ }
+ .col-sm >  label > button{
+    margin-bottom: 5%;
+    padding: 5%;
+ }
+ .col-sm label button{
+    padding: 10px;
+    margin: 30px; 
+ }
+ .col-sm > button{
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+ }
+ .form-control > input{
+    margin-top: 1rem;
+ }
